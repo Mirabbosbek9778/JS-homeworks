@@ -70,3 +70,14 @@
 // console.log(sum); //javobi 390
 
 // // ////////////////////////////
+
+// let obj = {
+//   name: "Mirabbos",
+//   age: 20,
+// };
+
+// for (let age in obj) {
+//   obj[age] *= 2;
+// }
+
+// console.log(obj.age); ///bunda objectni valuesini 2ga kopayttirib chiqarib beradi
