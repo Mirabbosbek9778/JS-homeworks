@@ -37,6 +37,8 @@
 
 //////////////////////////////////////////
 
+// 5)
+
 // let isEmpty = "hey";
 
 // let schedule = {
@@ -50,6 +52,8 @@
 // console.log(isEmpty(schedule));
 
 ///////////////////////////////////////
+
+// 6)
 
 // let saralies = {
 //   John: 100,
@@ -71,6 +75,8 @@
 
 // // ////////////////////////////
 
+// 7)
+
 // let obj = {
 //   name: "Mirabbos",
 //   age: 20,
@@ -81,3 +87,39 @@
 // }
 
 // console.log(obj.age); ///bunda objectni valuesini 2ga kopayttirib chiqarib beradi
+
+//////////////////////////////
+
+// 8)
+
+// let obj = {
+//   John: 100,
+//   Ann: 160,
+//   Pete: 130,
+// };
+
+// let keys = Object.keys(obj);
+// keys.sort();
+
+// for (let key of keys) {
+//   console.log(key, obj[key]);
+// }
+// // console.log(obj);
+
+///////////////
+
+// 9)
+
+// let menu = {
+//   width: 200,
+//   heigth: 300,
+//   title: "My menu",
+// };
+
+// for (let key in menu) {
+//   if (typeof menu[key] === "number") {
+//     menu[key] *= 2;
+//   }
+// }
+// console.log(menu);
+//  //bunda consolda valuelarda raqam kesa 2ga kopayib chiqyapti
