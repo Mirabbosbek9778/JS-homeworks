@@ -37,17 +37,34 @@
 
 /////////////////////////////////////
 
-let ladder = {
-  step: 0,
-  up() {
-    this.step++;
-  },
-  down() {
-    this.step--;
-  },
-  ShowStep: function () {
-    console.log(this.step);
-  },
-};
+// let ladder = {
+//   step: 0,
+//   up() {
+//     this.step++;
+//   },
+//   down() {
+//     this.step--;
+//   },
+//   ShowStep: function () {
+//     console.log(this.step);
+//   },
+// };
 
-ladder.up().up().down().ShowStep().down().ShowStep();
+// ladder.up().up().down().ShowStep().down().ShowStep();
+
+/////////////////////
+
+// function A() {
+//   name: "mirabbos";
+//   age: 20;
+// }
+
+// function B() {
+//   age: 20;
+// }
+
+// let a = new A();
+
+// let b = new B();
+
+// console.log(a === b);  ///false
