@@ -261,3 +261,45 @@
 // }
 // sum > 9 ? l.charCodeAt(55 + sum) : (str = toString(sum) + str);
 // console.log(str);
+
+/////////////////
+
+// let num = 5;
+// let day = "";
+// let count = 0;
+// let oldNum = num;
+// for (let j = 0; j < 10; j++) {
+//   while (num > 0) {
+//     let k = num % 10;
+//     if (j == k) count++;
+//     num /= 10;
+//   }
+//   if (count > 0) {
+//     day.concat(count).concat(" ta ");
+//     switch (j) {
+//       case 1:
+//         day.concat("bir, ");
+//       case 2:
+//         day.concat("ikki, ");
+//       case 3:
+//         day.concat("uch, ");
+//       case 4:
+//         day.concat("tort,");
+//       case 5:
+//         day.concat("besh, ");
+//       case 6:
+//         day.concat("olti, ");
+//       case 7:
+//         day.concat("yetti, ");
+//       case 8:
+//         day.concat("sakkiz, ");
+//       case 9:
+//         day.concat("toqqiz, ");
+//       case 0:
+//         day.concat("nol, ");
+//     }
+//   }
+//   count = 0;
+//   num = oldNum;
+// }
+// console.log(day);
