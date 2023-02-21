@@ -303,3 +303,21 @@
 //   num = oldNum;
 // }
 // console.log(day);
+
+///////////////////////
+
+let num = 2473678;
+num = num.toString();
+let obj = {};
+let str = "";
+for (let i = 0; i < num.length; i++) {
+  obj[num[i]] = 1 + (obj[num[i]] ? obj[num[i]] : Boolean(obj[num[i]]));
+}
+console.log(obj);
+
+for (let item in obj) {
+  str += obj[item] + "  ta, " + item + " dan,\n";
+}
+console.log(str);
+
+// console.log(Number(undefined));
